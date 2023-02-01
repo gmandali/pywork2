@@ -1,0 +1,13 @@
+@startuml
+'https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true
+
+start
+    :read Input for n students with student[name, grade];
+    :create a list with all the grades;
+    :Sort the grades list in ascending order;
+    :get the 2nd lowest (list[1]) from the grades list;
+    :create a list with students' names that match which the second lowest;
+    :Sort the names list alphabetically in ascending order;
+    :Print the names;
+stop
+@enduml

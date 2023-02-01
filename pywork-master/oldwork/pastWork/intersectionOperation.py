@@ -1,0 +1,5 @@
+num = int(input())
+lis = set(input().split())
+num1 = int(input())
+lis1 = set(input().split())
+print(len(lis.intersection(lis1)))
